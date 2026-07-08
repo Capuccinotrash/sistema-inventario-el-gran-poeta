@@ -567,11 +567,11 @@ def construir_app_principal(id_usuario_logueado, nombre_usuario, cargo_usuario):
     
     tk.Label(marco_filtros_movs, text="Filtrar por Fechas:", font=("Georgia", 10, "bold"), bg=COLOR_FONDO, fg="black").grid(row=0, column=0, columnspan=4, pady=5)
     
-    tk.Label(marco_filtros_movs, text="Desde (YYYY-MM-DD):", font=("Georgia", 10), bg=COLOR_FONDO, fg="black").grid(row=1, column=0, padx=5)
+    tk.Label(marco_filtros_movs, text="Desde (AAAA-MM-DD):", font=("Georgia", 10), bg=COLOR_FONDO, fg="black").grid(row=1, column=0, padx=5)
     caja_fecha_inicio = tk.Entry(marco_filtros_movs, font=("Georgia", 10), width=12)
     caja_fecha_inicio.grid(row=1, column=1, padx=5)
     
-    tk.Label(marco_filtros_movs, text="Hasta (YYYY-MM-DD):", font=("Georgia", 10), bg=COLOR_FONDO, fg="black").grid(row=1, column=2, padx=5)
+    tk.Label(marco_filtros_movs, text="Hasta (AAAA-MM-DD):", font=("Georgia", 10), bg=COLOR_FONDO, fg="black").grid(row=1, column=2, padx=5)
     caja_fecha_fin = tk.Entry(marco_filtros_movs, font=("Georgia", 10), width=12)
     caja_fecha_fin.grid(row=1, column=3, padx=5)
 
